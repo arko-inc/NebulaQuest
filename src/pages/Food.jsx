@@ -7,7 +7,7 @@ const Food = () => {
       id: 1,
       name: "Sushi",
       image: "/images/sushi.jpg",
-      description: "Sushi is a traditional Japanese dish consisting of vinegared rice, often accompanied by raw seafood, vegetables, and sometimes tropical fruits.",
+      description: "Sushi is   a traditional Japanese dish consisting of vinegared rice, often accompanied by raw seafood, vegetables, and sometimes tropical fruits.",
     },
     {
       id: 2,
