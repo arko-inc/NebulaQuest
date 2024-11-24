@@ -6,7 +6,7 @@ function Hero1()  {
     <>
       <div
         className="text-white p-6 rounded-md bg-cover bg-center relative h-screen flex items-center justify-center"
-        style={{ backgroundImage: "url('/images/European/finland.jpg')" }}
+        style={{ backgroundImage: "url('https://unsplash.com/photos/aerial-photography-of-street-at-night-covered-with-snow-w6KSwwnQyaE')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative text-center text-white">
