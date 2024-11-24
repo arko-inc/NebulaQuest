@@ -1,15 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import "./index.css";
 
-const Home = () => <h1 className="text-center text-3xl">Welcome to NebulaQuest 🚀</h1>;
-const About = () => <h1 className="text-center text-3xl">About NebulaQuest</h1>;
 
 function App() {
   return (
     <Router>
+      <Navbar/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+         <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
