@@ -1,5 +1,5 @@
 import React from "react";
-import Hero1 from "../components/Hero1";
+import HeroSection from "../components/HeroSection";
 import Showcase from "../components/Showcase";
 import Footer from "../components/Footer";
 
@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <>
-      <Hero1 />
+      <HeroSection/>
      <Showcase/>
      <Footer/>
      
