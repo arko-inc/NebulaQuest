@@ -73,7 +73,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/public/logo/logo.png" alt="Logo" className="h-10 w-auto" />
+          <img src="public/logo/logo.png" alt="Logo" className="h-10 w-auto" />
         </div>
 
         {/* Desktop Menu */}
