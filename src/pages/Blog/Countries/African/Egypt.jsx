@@ -1,9 +1,16 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import Footer from "../../../../components/Footer";
 
 const Egypt = () => {
   return (
+    
     <div className="container mx-auto p-6">
+        <Helmet>
+      <meta name="description" content="Your awesome travel blog" />
+      <meta name="keywords" content="travel blog, travel tips, adventure, travel inspiration" />
+      <title>NebulaQuest - Travel Blog</title>
+    </Helmet>
       <header className="bg-yellow-600 text-white p-6 rounded-t-lg">
         <h1 className="text-5xl font-against">Journey through Egypt</h1>
         <p className="text-lg mt-2">
