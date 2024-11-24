@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Hero1 = () => {
+function Hero1()  {
   return (
     <>
       <div
