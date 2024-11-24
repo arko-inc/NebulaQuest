@@ -3,9 +3,10 @@ import Footer from "../../../../components/Footer";
 
 const SouthAfrica = () => {
   const images = [
-    "/images/southafrica1.jpg",
-    "/images/southafrica2.jpg",
-    "/images/southafrica3.jpg",
+    "https://images.unsplash.com/photo-1534241995470-5246b51983ae?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHdpbGQlMjBhZnJpY2ElMjBsaW9ufGVufDB8fDB8fHwy",
+    "https://images.unsplash.com/photo-1481889617387-82a8f2413b6b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c291dGglMjBhZnJpY2F8ZW58MHx8MHx8fDI%3D",
+    "https://images.unsplash.com/photo-1534528489707-ef61ee67b566?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2lsZCUyMGFmcmljYXxlbnwwfHwwfHx8Mg%3D%3D",
+    "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c291dGglMjBhZnJpY2F8ZW58MHx8MHx8fDA%3D"
   ]; // Add your image paths
   const [currentIndex, setCurrentIndex] = useState(0);
 

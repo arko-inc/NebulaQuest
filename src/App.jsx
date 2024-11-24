@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import "./index.css";
+import Food from "./pages/Food";
+import TravelTips from "./pages/Traveltips";
 
 import Africa from "./pages/Blog/Continents/Africa";
 import Asia from "./pages/Blog/Continents/Asia";
@@ -26,6 +28,8 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/Food" element={<Food />} />
+      <Route path="/TravelTips" element={<TravelTips />} />
         <Route path="/Africa/South Africa" element={<SouthAfrica />} />
         <Route path="/Europe/Finland" element={<Finland />} />
         <Route path="/Europe/France" element={<France />} />

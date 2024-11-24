@@ -124,13 +124,13 @@ const Navbar = () => {
           </div>
 
           <Link
-            to="/travel-tips"
+            to="/Traveltips"
             className="text-black hover:text-red-500 transition-all"
           >
             Travel Tips
           </Link>
           <Link
-            to="/foods"
+            to="/Food"
             className="text-black hover:text-red-500 transition-all"
           >
             Foods

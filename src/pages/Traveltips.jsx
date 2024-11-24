@@ -11,7 +11,7 @@ const TravelTips = () => {
       details: [
         "Roll your clothes to save space.",
         "Pack versatile outfits to mix and match.",
-        "Carry a compact first-aid kit.",
+        "Carry a compact first-aid kit." ,
       ],
     },
     {
